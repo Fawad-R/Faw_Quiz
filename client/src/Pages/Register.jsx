@@ -33,7 +33,7 @@ const Register = () => {
             if(val.status===200)
             {
                 alert("Sucessfully registered! You can login here")
-                Navigate(-1);
+                Navigate('/login');
             }
             else
             {

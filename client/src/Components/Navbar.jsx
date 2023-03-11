@@ -3,12 +3,12 @@ import React from 'react'
 import { useContext,useEffect } from 'react';
 import { useReducer } from 'react';
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom' 
 // import { context } from '../Pages/Login';
 import { latestContext } from '../App';
 // latestContext
 const Navbar = () => {
-
+   let Navigate=useNavigate();
    // let initialState=true;
    // console.log('latestContext',latestContext);
    let {latestState,dispatchlatestState}= useContext(latestContext);
@@ -38,6 +38,8 @@ const Navbar = () => {
          localStorage.setItem('user',JSON.stringify(null));
          localStorage.setItem('initialState',JSON.stringify(null));
          updateState(true);
+         alert('You have logged out!')
+         Navigate('/login');
       }
       else
       {
