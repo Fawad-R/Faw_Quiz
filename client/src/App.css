@@ -1,0 +1,238 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+background-color: rgba(0, 0, 0, 0.959);
+/* color: white; */
+}
+.Start
+{
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  /* height: 100vh; */
+}
+.Start h1
+{
+  /* border: 2px solid orange; */
+  margin-top: 2%;
+}
+.StartMain
+{
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid; */
+  text-align: center;
+  height: 100%;
+}
+.StartMaindata
+{
+  margin-top: 2%;
+  width: 50%;
+  margin: auto;
+ 
+}
+.StartMain li
+{
+  /* margin: 1% 0% 0px 160px; */
+  margin: 1% 0% 0px 10%;
+  text-align: start;
+  
+}
+.StartMain ol
+{
+  text-align: start;
+  margin-bottom: 2%;
+  border: 2px solid;
+}
+.StartMain form
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.latestStart form
+{
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  /* margin: auto; */
+}
+form input
+{
+  padding: 10px;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+#StartQuiz
+{
+  /* background-color: rgb(100, 207, 100); */
+  background-color:#28a745;
+  padding: 10px;
+  width: 150px;
+  /* margin: auto; */
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  color: white;
+  transition: all 1s;
+}
+#StartQuiz:hover
+{
+  background-color:  darkgreen;
+  /* color: black; */
+}
+/* .latestStart
+{ */
+  /* border:2px solid greenyellow; */
+  /* text-align: ; */
+  /* display: flex; */
+  /* padding-top: 50px; */
+/* } */
+.about_image img
+{
+  height:450px;
+  width: 100%;
+}
+.latestStart input
+{
+  display: block;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.QuestionForm
+{
+  border: 2px solid;
+  width: 100%;
+  display: flex;
+}
+.QuestionForm input
+{
+  display: inline;
+}
+#Next
+{
+  margin:5%; 
+  padding:2px;
+  width: 101px
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.LastMaindata
+{
+  margin-top: 2%;
+}
+.LastMaindatabody
+{
+  margin-top: 5%;
+}
+.LastMaindata_section
+{
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+  text-align: left;
+  /* padding: 10%; */
+}
+/* .LastMaindata_section p{
+} */
+.LastMaindata_section_part1 p
+{
+  margin-bottom: 15px;
+}
+.LastMaindata_section_part2 p
+{
+  margin-bottom: 15px;
+  text-align: end;
+}
+.Restart
+{
+  background-color: lightcoral;
+  color: black;
+  padding: 5px;
+  margin: 15px 0%; 
+  width: 150px;
+}
+
+table
+{
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top:15px;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.Register0
+{
+  height: 65vh;
+}
+/* .Register1
+{
+  height: 65vh;
+} */
+.Register form
+{
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  width: 60%;
+  /* width: 700px; */
+  margin:20px auto;
+  margin-top: 100px;
+  padding: 15px;
+}
+.Register input
+{
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: black;
+  color: white;
+  display: block;
+  width: 95%;
+}
+#submit
+{
+  width: 160px;
+  transition: all 1s;
+}
+#submit:hover{
+  background-color: rgba(0, 0, 0, 0.941);
+}
+
+.LastMain
+{
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid; */
+  text-align: center;
+  height: 100%;
+}
+.LastMaindata
+{
+  margin-top: 2%;
+  width: 100%;
+  margin: auto;
+}
+@media (max-width:350px)
+{
+  .LastMaindata
+  {
+    /* margin-top: 2%; */
+    width: 100%;
+    margin: 0%;
+  } 
+  .LastMain
+{
+  width: 99%;
+}
+.Register form
+{
+  width: 90%;
+}
+
+}
+.QuizFormNewClass input
+{
+  margin-left: 10%;
+}
